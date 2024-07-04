@@ -1,0 +1,12 @@
+apiVersion: project.eperdeme.io/v1alpha1
+kind: Project
+metadata:
+  annotations:
+    meta.upbound.io/example-id: project/v1alpha1/project
+  labels:
+    testing.upbound.io/example-name: example
+  name: example
+spec:
+  forProvider:
+    description: My awesome codebase
+    visibilityLevel: public

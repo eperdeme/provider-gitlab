@@ -4,14 +4,14 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.13.0
-  name: providerconfigusages.template.upbound.io
+  name: providerconfigusages.gitlab.eperdeme.io
 spec:
-  group: template.upbound.io
+  group: gitlab.eperdeme.io
   names:
     categories:
     - crossplane
     - provider
-    - template
+    - gitlab
     kind: ProviderConfigUsage
     listKind: ProviderConfigUsageList
     plural: providerconfigusages
